@@ -1,0 +1,41 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*Cabeçalho*/
+
+header {
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+header nav {
+    padding-left: 100px;
+    display: flex; 
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-items a {
+    color: goldenrod;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.menu-items a:hover {
+    color: rgb(245, 245, 46);
+}
+
+ul {
+    padding-left: 700px;
+    display: flex;
+    padding-top: 15px;
+}
