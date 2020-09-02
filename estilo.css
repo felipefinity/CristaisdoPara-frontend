@@ -10,7 +10,9 @@ html {
 header {
     background-color: black;
     height: 120px;
-    position: fixed;
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 100%;
 }
 
@@ -60,19 +62,18 @@ ul {
 .frase h1 {
     font-family:'Dancing Script', cursive;
     font-size: 100px;
+    color: gold;
 }
 
 /*Seção produtos*/
 
 #produtos {
     width: 100%;
-    max-width: 1500px;
     height: 100%;
     height: 2700px;
     margin: 0 auto;
     text-align: center;
     background-color: gold;
-    border: 10px double black;
 }
 
 .produtos-title {
@@ -97,3 +98,59 @@ ul {
 section img:hover {
     border: 3px solid black;
 }
+
+section i {
+    color: goldenrod;
+}
+
+section i:hover {
+    color: gold;
+}
+
+/*Rodapé*/
+
+#rodape {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background: black;
+}
+
+.rodape-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rodape-container {
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape-container a {
+    text-decoration: none;
+    color: gold;
+}
+
+.rodape-container a:hover {
+    color: whitesmoke;
+}
+
+.rodape-info {
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+ p {
+    font-size: 20px;
+}
+
+.rodape-logo {
+    padding-left: 250px;
+}
+.rodape-criador {
+    padding-top: 20px;
+    padding-left: 400px;
+    text-align: center;
+}
+
